@@ -1,0 +1,15 @@
+{
+  "name": "mkcjs",
+  "version": "0.0.0",
+  "description": "Minimalist CommonJS constructor",
+  "readme": "readme.txt",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/serprex/make-cjs.git"
+  },
+  "bin": {
+	  "mkcjs": "mkcjs.js"
+  },
+  "author": { "name": "Demur Rumed" },
+  "license": "MIT"
+}
