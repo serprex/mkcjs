@@ -1,11 +1,11 @@
 {
   "name": "mkcjs",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Minimalist CommonJS constructor",
   "readme": "readme.txt",
   "repository": {
     "type": "git",
-    "url": "https://github.com/serprex/make-cjs.git"
+    "url": "https://github.com/serprex/mkcjs.git"
   },
   "bin": {
 	  "mkcjs": "mkcjs.js"
