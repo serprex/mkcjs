@@ -1,4 +1,4 @@
-#!/usr/bin/node
+#!/usr/bin/env node
 "use strict";
 if (process.argv.length<3){
 	process.stdout.write("mkcjs OUT [MODULES]\n");
@@ -27,5 +27,5 @@ function writeModule(n){
 	src.pipe(out, {end: false});
 }
 var plate = fs.createReadStream(path.resolve(__dirname, "plate.js"));
-plate.on("end", function(){writeModule(3)});
+plate.on("end", function(){writeModule(3);});
 plate.pipe(out, {end: false});
