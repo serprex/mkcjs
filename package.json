@@ -1,6 +1,6 @@
 {
   "name": "mkcjs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Minimalist CommonJS constructor",
   "readme": "readme.txt",
   "repository": {
@@ -8,8 +8,10 @@
     "url": "https://github.com/serprex/mkcjs.git"
   },
   "bin": {
-	  "mkcjs": "mkcjs.js"
+    "mkcjs": "mkcjs.js"
   },
-  "author": { "name": "Demur Rumed" },
+  "author": {
+    "name": "Demur Rumed"
+  },
   "license": "MIT"
 }
